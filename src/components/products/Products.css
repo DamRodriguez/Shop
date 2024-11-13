@@ -1,0 +1,37 @@
+.products {
+    width: 100%;
+    display: grid;
+}
+
+.products ul {
+    list-style-type: none;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    gap: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.products img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.products li {
+    display: grid;
+    place-items: center;
+    border: 1px solid white;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 1rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+.titleContainer {
+    display: grid;
+    place-items: center;
+}
+
